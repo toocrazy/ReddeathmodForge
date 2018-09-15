@@ -10,11 +10,7 @@ import net.minecraftforge.fml.common.network.NetworkRegistry;
 
 public class ClientProxy extends CommonProxy {
 
-	@Override
-	public void init() {
-		NetworkRegistry.INSTANCE.registerGuiHandler(Reddeathmod.instance, new GuiHandler());
-
-	}
+	
 		
 	
 	
@@ -39,6 +35,7 @@ public class ClientProxy extends CommonProxy {
 		
 	}
 	
+	
 	private void registerModel(Object obj, int meta, ModelResourceLocation loc) {
 		Item item = null;
 		if(obj instanceof Item) {
@@ -50,6 +47,11 @@ public class ClientProxy extends CommonProxy {
 			throw new IllegalArgumentException();
 		}
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, meta, loc);
+	}
+	@Override
+	public void init() {
+		NetworkRegistry.INSTANCE.registerGuiHandler(Reddeathmod.instance, new GuiHandler());
+
 	}
 
 }

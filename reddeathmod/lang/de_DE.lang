@@ -1,0 +1,16 @@
+itemGroup.Deathmod=§5RoterTodesMod
+item.Redingot.name=§3Rotes Stall
+item.Reddiamond.name=§3Roter Diamand
+item.Rednugget.name=§3Roter Nugget
+item.Ironnugget.name=§3Eisen Nugget
+item.Basicelementorb.name=§3Basicelementorb
+item.Airorb.name=§5Luftorb
+item.Fireorb.name=§5Feuerorb
+item.Waterorb.name=§5Wasserorb
+item.Earthorb.name=§5Erdorb
+
+tile.deathgrass.name=§3Totesgrass
+tile.deathstone.name=§3Toterstein
+tile.redsteelblock.name=§3Roter Staalblock
+tile.Redsteelore.name=§3Rotes Stallerz
+tile.Deathportalstone.name=§3Toterportalstein

@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "reddeathmod:blocks/deathgrass_top",
+        "top": "reddeathmod:blocks/deathgrass_top",
+        "side": "reddeathmod:blocks/deathgrass_side"
+    }
+}
